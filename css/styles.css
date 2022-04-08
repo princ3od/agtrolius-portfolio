@@ -1,0 +1,121 @@
+html,
+body {
+  margin: 0;
+  background-color: #fff3b8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 60%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.6), 0 15px 12px rgba(0, 0, 0, 0.44);
+  border-radius: 16px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../imgs/tree-bg.png");
+}
+
+#input-area {
+  display: block;
+  width: 50%;
+}
+
+#submit-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input.textbox {
+  width: 100%;
+  border: 0px solid #000000;
+  border-bottom-width: 12px;
+  background-color: transparent;
+  font-size: 24px;
+}
+input.textbox:hover {
+  border-color: #000000;
+  background-color: transparent;
+}
+*:focus {
+  outline: none;
+}
+
+#textfield {
+  font-weight: bold;
+  color: #000000;
+  display: block;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+input,
+label {
+  display: block;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 12px;
+  color: #000000;
+  padding: 8px 4px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#textbtn {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #000000;
+  padding: 8px 4px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #fff3b8;
+}
+
+button.link {
+  background-color: transparent;
+  border: 0px solid #000000;
+  border-radius: 12px;
+  color: #000000;
+  padding: 8px 4px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button.link:hover {
+  text-decoration: underline;
+}
+
+#button-section {
+  display: flex;
+}

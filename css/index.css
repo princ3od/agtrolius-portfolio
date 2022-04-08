@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  background-color: #fff3b8;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+  margin-top: -2%;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper {
+  width: 70%;
+  height: 80%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.6), 0 15px 12px rgba(0, 0, 0, 0.44);
+  border-radius: 16px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../imgs/computer-bg.png");
+}
+
+.topnav {
+  background-color: transparent;
+  padding: 16px 0px 16px 40px;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+.topnav a {
+  float: left;
+  color: #876e4a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav img {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.topnav a.active {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+div.about {
+  width: 28%;
+  margin-left: 64px;
+}
+
+div.about a,
+img {
+  display: block;
+  align-items: flex-start;
+}
+
+a.name {
+  color: #876e4a;
+  font-size: 40px;
+  font-weight: 900;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.description {
+  font-size: 15px;
+}
